@@ -1,0 +1,128 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+#logo {
+	flex: 1;
+}
+
+#logo img {
+    width: 200px; /* Remplacez 200px par la taille que vous souhaitez */
+    border-radius: 50%;
+  }
+  
+
+nav {
+	flex: 2;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav ul li a:hover {
+	background-color: #fff;
+	color: #333;
+    border-radius: 50%;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #333;
+	background-color: #fff;
+}
+
+.box img {
+	width: 200px;
+	height: 200px;
+	margin-bottom: 20px;
+	object-fit: cover;
+}
+
+.box h2 {
+	font-size: 24px;
+	text-align: center;
+	margin: 0;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+a {
+    color: #FFA500; 
+    text-decoration: none; /* pour enlever le soulignement des liens */
+  }
+  
+  a:hover {
+    color: #FFD700; /* jaune plus clair au survol */
+  }
+  
+  input[type="text"], input[type="password"] {
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+input[type="submit"]:hover {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
